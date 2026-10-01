@@ -1,0 +1,3 @@
+# Made with [Chat Gpt Luna]
+# Bleak uses the macOS CoreBluetooth backend; macOS supplies the other APIs.
+bleak>=3.0.2,<4.0

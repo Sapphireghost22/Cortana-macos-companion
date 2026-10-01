@@ -1,0 +1,29 @@
+{
+  "assistant_name": "Cortana",
+  "known_devices": [
+    "My Phone",
+    "My AirPods"
+  ],
+  "monitor": {
+    "interval_seconds": 30,
+    "bluetooth_every_n_cycles": 5,
+    "bluetooth_scan_seconds": 6,
+    "wifi_scan": false,
+    "read_gatt_battery": false
+  },
+  "thresholds": {
+    "low_battery_pct": 20,
+    "battery_recovered_pct": 25,
+    "gateway_loss_warn_pct": 20,
+    "gateway_loss_clear_pct": 5,
+    "network_bad_samples": 2,
+    "network_good_samples": 2,
+    "device_seen_scans": 2,
+    "device_missing_scans": 3,
+    "speech_cooldown_seconds": 900
+  },
+  "speech": {
+    "enabled": false,
+    "voice": ""
+  }
+}
